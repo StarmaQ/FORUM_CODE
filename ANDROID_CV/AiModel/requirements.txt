@@ -1,0 +1,6 @@
+ultralytics>=8.0.0
+torch
+torchvision
+Pillow
+# TensorFlow is required for TFLite export
+tensorflow-cpu>=2.14.0

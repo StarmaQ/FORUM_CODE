@@ -1,0 +1,37 @@
+# Android/Gradle
+.gradle/
+build/
+app/build/
+captures/
+local.properties
+*.iml
+.idea/
+
+# Android assets generated/exported (keep app assets)
+AiModel/yolo11n_saved_model/
+AiModel/*.onnx
+AiModel/*.tflite
+
+# Python
+**/__pycache__/
+*.py[cod]
+AiModel/.venv/
+
+# OS
+.DS_Store
+Thumbs.db
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
